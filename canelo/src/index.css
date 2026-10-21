@@ -1,0 +1,23 @@
+:root {
+  --color-primary-red: #e51a24;
+  --color-primary-red-hover: #b81018;
+  --color-secondary-blue: #0052a5;
+  --color-secondary-blue-hover: #003b7a;
+  --color-gray-dark: #495057;
+  --color-gray-light: #f4f6f8;
+  --color-border: #dee2e6;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--color-gray-light);
+  color: #212529;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
